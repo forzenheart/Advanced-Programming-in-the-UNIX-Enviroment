@@ -1,0 +1,5 @@
+VPATH = ../
+Objects = apue.h showFileStatus.cpp systemError.cpp
+show : $(Objects)
+	cc -o show $(Objects)
+
